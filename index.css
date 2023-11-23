@@ -1,0 +1,32 @@
+body{
+    background-color: #33484e;
+}
+
+.computerSide, .result ,.userChoiceDiv {
+    display: flex;
+    justify-content: center;
+}
+.userChoice{
+    height: 7rem;
+    width: 7rem;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+
+.userChoices{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    /* padding: 3%; */
+}
+
+#ComputerImg{
+    height: 15rem;
+    width: 15rem;
+}
+#userSelectedImg{
+    display: flex;
+    justify-content: center;
+    height: 15rem;
+    width: 15rem;
+}
